@@ -10,3 +10,6 @@ data/*
 
 # Dependencias del servidor de desarrollo (se instalan con npm install)
 dev-server/node_modules/
+
+# Paquete de instalación generado (descargable, no se commitea)
+*.zip
