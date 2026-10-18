@@ -1,0 +1,12 @@
+# Datos generados en runtime (base de datos, sesiones, cache, subidas)
+data/*
+!data/.htaccess
+!data/index.html
+
+# Entorno / IDE
+.scratch/
+.DS_Store
+*.log
+
+# Dependencias del servidor de desarrollo (se instalan con npm install)
+dev-server/node_modules/

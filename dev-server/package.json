@@ -1,0 +1,15 @@
+{
+  "name": "epgweb-dev-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor de desarrollo de EPGWeb: PHP 8.3 real vía WebAssembly (no requiere PHP instalado). Solo para desarrollo/demos.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@php-wasm/node": "^3.1.58",
+    "@php-wasm/universal": "^3.1.58"
+  }
+}
